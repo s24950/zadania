@@ -3,7 +3,7 @@
 auto main () -> int
 {
 auto tmp = std :: string {};
-// temporary variable
+
 std :: getline ( std :: cin , tmp );
 std :: cout << " a = ";
 auto const a = std :: stoi ( tmp );
